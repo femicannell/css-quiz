@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+
+<body>
+	
+	<div class="container">
+		<!-- Header -->
+		<div class="header">
+			<h1>CSS Quiz</h1>
+			<h3>Attempt every question, your score will be displayed at the end of the quiz</h3>
+		</div>
+		<!-- End of header -->
+	
+		<!-- Question -->
+		<div class="question">
+			<h4 id="question-header"></h4>
+			<hr>
+			<h4 id="correct-answers-message"></h4>
+			<h3 id="error_msg"></h3>
+		</div>
+		<!-- End of question -->
+	
+		<div class="start">
+			<h2 id="start-header">Click start to begin</h2>
+			<div id="start-button-div">
+				<button id="start-button" onclick="question1()" name="next">Start</button>
+			</div>
+		</div>
+	
+		<!-- Answers -->
+		<div class="answers">
+			<ul class="answer-list">
+				<li id="answer1"></li>
+				<li id="answer2"></li>
+				<li id="answer3"></li>
+				<li id="answer4"></li>
+				
+				<li id="answered1"></li>
+				<li id="answered2"></li>
+				<li id="answered3"></li>
+				<li id="answered4"></li>
+				<li id="answered5"></li>
+				<li id="answered6"></li>
+				<li id="answered7"></li>
+				<li id="answered8"></li>
+				<li id="answered9"></li>
+				<li id="answered10"></li>
+
+			</ul>
+			<hr>
+			<div id="confirm"></div>
+			<div id="restart"></div>
+		</div>
+		<!-- End of answers -->
+	</div>
+	<!-- End of container -->
+</body>
+
+</html>

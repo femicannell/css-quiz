@@ -1,0 +1,33 @@
+﻿.container{
+	width:1000px;
+	margin:auto;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.header{
+	height:170px;
+	text-align:center;
+	padding-top:40px;
+	background:url('header.png');
+}
+
+.header h1, h3{
+	color:orangered;
+}
+
+.question{
+	text-align:center;
+}
+
+.start{
+	text-align:center;
+}
+
+#start-button{
+	width:100px;
+}
+
+.answer-list{
+	list-style-type: none;
+	padding:10px;
+}
